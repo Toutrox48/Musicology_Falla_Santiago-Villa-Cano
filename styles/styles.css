@@ -55,9 +55,9 @@ header{
     border: none;
 }
 
-.musicology button :hover{
+.musicology button:hover{
     background: #ac4307;
-    cursor: cell;
+    cursor: pointer;
 }
 
 .dantour{
@@ -84,12 +84,14 @@ header{
 
 .country{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
 .country div{
+    border-radius: 5px;
     margin: 20px;
     width: 280px;
     background: #2c2c2c;
@@ -101,4 +103,112 @@ header{
 
 .country div img{
     width: 100%;
+}
+
+.pricing{
+    width: 100%;
+    background: #2c2c2c;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top:100px ;
+    padding-bottom:70px ;
+    text-align: center
+}
+
+
+.pricing h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.pricing p{
+    margin-bottom: 25px;
+}
+
+.pricins{
+    background:#2c2c2c;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top:100px ;
+    padding-bottom:70px ;
+    text-align: center;
+}
+
+.pricins h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.pricins p{
+    margin-bottom: 25px;
+}
+
+.pricins{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pricins div{
+    margin: 20px;
+    width: 280px;
+    background: #ff6309;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.pricins h1{
+    font-size: 30px;
+}
+
+.pricins button{
+    color: white;
+    background: #2c2c2c;
+    width: 70%;
+    height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+
+.liston{
+    width: 100px;
+    height: auto;
+}
+
+footer{
+    background:#ff6309 ;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 920px)  {
+    .musicology{
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 768px)  {
+    .musicology h1{
+        font-size: 50px;
+    }
 }
