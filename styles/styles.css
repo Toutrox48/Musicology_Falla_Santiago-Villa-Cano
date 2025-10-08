@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+header{
+    background: black;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.musicology{
+    width: 100vw;
+    background-image: url("/src/images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    padding-left: 70px;
+    padding-bottom: 50px;
+    padding-top: 200px;
+
+}
+
+.musicology h1{
+    font-size: 90px;
+    font-weight: 100;
+    color: white;
+}
+
+.musicology p{
+    margin-top: 10px;
+    color: white;
+}
+
+.musicology button{
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    background:#ff6309;
+    padding: 15px;
+    border: none;
+}
+
+.musicology button :hover{
+    background: #ac4307;
+    cursor: cell;
+}
+
+.dantour{
+    background:#ff6309;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top:100px ;
+    padding-bottom:70px ;
+    text-align: center;
+}
+
+.dantour h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.dantour p{
+    margin-bottom: 25px;
+}
+
+.country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.country div{
+    margin: 20px;
+    width: 280px;
+    background: #2c2c2c;
+}
+
+.country h1{
+    font-size: 30px;
+}
+
+.country div img{
+    width: 100%;
+}
